@@ -9,7 +9,7 @@
         <p>{{ person.name.first}} {{ person.name.last }}</p>
         <ul>
           <li>
-            <strong>Birthday:</strong> {{ formatDate(person.dob)}}
+            <strong>Birthday:</strong> {{ formatDate(person.dob.date)}}
           </li>
           <div class="text-capitalize">
             <strong>Location:</strong> {{ person.location.city}}, {{ person.location.state }}
