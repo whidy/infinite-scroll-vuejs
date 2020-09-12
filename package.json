@@ -10,9 +10,9 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "axios": "^0.19.0",
-    "moment": "^2.24.0",
-    "vue": "^2.6.10"
+    "axios": "^0.19.2",
+    "moment": "^2.27.0",
+    "vue": "^2.6.12"
   },
   "browserslist": [
     "> 1%",
@@ -20,18 +20,18 @@
     "not ie <= 8"
   ],
   "devDependencies": {
-    "@babel/core": "^7.5.4",
-    "@babel/preset-env": "^7.5.4",
-    "babel-loader": "^8.0.6",
-    "cross-env": "^5.2.0",
-    "css-loader": "^3.0.0",
-    "file-loader": "^4.0.0",
-    "node-sass": "^4.13.1",
-    "sass-loader": "^7.1.0",
-    "vue-loader": "^15.7.0",
-    "vue-template-compiler": "^2.6.10",
-    "webpack": "^4.35.3",
-    "webpack-cli": "^3.3.5",
-    "webpack-dev-server": "^3.7.2"
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "cross-env": "^5.2.1",
+    "css-loader": "^3.6.0",
+    "file-loader": "^4.3.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^7.3.1",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }
