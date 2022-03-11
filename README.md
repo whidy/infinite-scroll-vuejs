@@ -172,13 +172,12 @@ export default {
 
 ## 项目运行
 
+> 更新到webpack5，升级依赖。仅用于开发测试，删除了build相关。
+
 ``` bash
 # install dependencies
 npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
-
-# build for production with minification
-npm run build
 ```

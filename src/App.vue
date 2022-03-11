@@ -72,6 +72,10 @@ export default {
 </script>
 
 <style lang="scss">
+h1 {
+  text-align:center;
+}
+
 .person {
   background: #ccc;
   border-radius: 2px;
